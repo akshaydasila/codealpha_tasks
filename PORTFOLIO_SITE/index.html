@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Personal portfolio of a frontend developer"
+    />
+
+    <title>My Portfolio | Web Developer</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header class="header">
+      <nav class="navbar">
+        <a href="#home" class="logo">Portfolio<span>.</span></a>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button
+            id="themeToggle"
+            class="theme-toggle"
+            aria-label="Switch theme"
+          >
+            <i class="fas fa-sun"></i>
+          </button>
+
+          <button
+            id="menuIcon"
+            class="menu-icon"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home section" id="home">
+      <div class="home-content reveal">
+        <span class="welcome">WELCOME TO MY PORTFOLIO</span>
+
+        <h3>Hello, I'm</h3>
+
+        <h1>Akshay Dasila</h1>
+
+        <h3 class="profession">I'm a <span id="typing"></span></h3>
+
+        <p>
+          I am a motivated and detail-oriented Front End Developer with a good
+          foundation in C, Python, javascript, React. Passionate about designing
+          efficient, scalable, and data-driven applications. Seeking to share my
+          technical expertise and problem-solving skills in an innovative
+          organization that values creativity and growth. I also enjoy learning
+          new technologies and creating meaningful digital experiences.
+        </p>
+
+        <div class="social-links">
+          <a
+            href="https://github.com/akshaydasila"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/akshaydasila"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
+          <a
+            href="https://instagram.com/dasila_akshay"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+
+        <div class="home-buttons">
+          <a href="#projects" class="btn"> Explore Projects </a>
+
+          <a href="#contact" class="btn btn-outline"> Contact Me </a>
+        </div>
+      </div>
+
+      <div class="home-image reveal">
+        <div class="image-glow">
+          <img src="./gpt_pic.png" alt="My profile photograph" />
+        </div>
+
+        <div class="floating-tag tag-one">
+          <i class="fab fa-react"></i> React
+        </div>
+
+        <div class="floating-tag tag-two">
+          <i class="fab fa-js"></i> JavaScript
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <h2 class="heading reveal">About <span>Me</span></h2>
+
+      <div class="about-container reveal">
+        <div class="about-image">
+          <img src="./gpt_pic.png" alt="About me" />
+        </div>
+
+        <div class="about-content">
+          <h3>Frontend Developer</h3>
+
+          <p>
+            I am a Computer Science graduate with an interest in frontend
+            development and modern web technologies. I enjoy building responsive
+            websites, developing interactive applications and solving
+            programming problems.
+          </p>
+
+          <p>
+            My current focus is improving my skills in JavaScript, React and
+            full-stack web development.
+          </p>
+
+          <a href="#skills" class="btn">Explore My Skills</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <h2 class="heading reveal">My <span>Skills</span></h2>
+
+      <div class="skills-container">
+        <div class="skill-card reveal">
+          <i class="fab fa-html5"></i>
+          <h3>HTML5</h3>
+          <p>Semantic website structure</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS3</h3>
+          <p>Responsive layouts and styling</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <i class="fas fa-wind"></i>
+          <h3>Tailwind CSS</h3>
+          <p>Utility-first responsive styling</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <p>Interactive web applications</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+          <p>Reusable UI components</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <i class="fab fa-bootstrap"></i>
+          <h3>Bootstrap</h3>
+          <p>Responsive UI development</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <i class="fab fa-git-alt"></i>
+          <h3>Git</h3>
+          <p>Version control</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <i class="fas fa-database"></i>
+          <h3>MySQL</h3>
+          <p>Database fundamentals</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <i class="fab fa-python"></i>
+          <h3>Python</h3>
+          <p>Programming fundamentals</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <i class="fas fa-code"></i>
+          <h3>C</h3>
+          <p>Procedural programming & memory management</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <i class="fas fa-laptop-code"></i>
+          <h3>C++</h3>
+          <p>Object-oriented programming & DSA</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+      <h2 class="heading reveal">My <span>Projects</span></h2>
+
+      <p class="section-description reveal">
+        Some of the projects I have worked on.
+      </p>
+
+      <div class="projects-container">
+        <!-- E commerce website -->
+        <article class="project-card reveal">
+          <div class="project-icon">
+            <i class="fas fa-calculator"></i>
+          </div>
+
+          <span class="project-number">PROJECT 01</span>
+
+          <h3>E-commerce App</h3>
+
+          <p>
+            Created a responsive frontend e-commerce application built with
+            React, Tailwind CSS, HTML5, and CSS3. Features dynamic product
+            browsing, detailed product views, interactive shopping cart
+            management, and a streamlined checkout flow.
+          </p>
+
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+          </div>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/akshaydasila/React_E-commerce-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-github"></i> Source Code
+            </a>
+          </div>
+        </article>
+
+        <!-- Movie Zone -->
+        <article class="project-card reveal">
+          <div class="project-icon">
+            <i class="fas fa-film"></i>
+          </div>
+
+          <span class="project-number">PROJECT 02</span>
+
+          <h3>Movie App</h3>
+
+          <p>
+            Created a simple but responsive movie app with the help of HTML5,
+            CSS and javascript which helps users to distinguish among the type
+            of movie they want to watch.
+          </p>
+
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/akshaydasila/Movie_app.git"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-github"></i> Source Code
+            </a>
+          </div>
+        </article>
+
+        <!-- Portfolio -->
+        <article class="project-card reveal">
+          <div class="project-icon">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+
+          <span class="project-number">PROJECT 03</span>
+
+          <h3>Personal Portfolio</h3>
+
+          <p>
+            A clean, responsive personal portfolio website built from scratch
+            using HTML5, CSS3, and Vanilla JavaScript to showcase my projects,
+            technical skills, and contact information. <br />
+            • HTML5: Semantic, accessible page structure. <br />
+            • CSS3: Custom styling, responsive Flexbox/Grid layouts, and smooth
+            hover transitions. <br />
+            • JavaScript (ES6+): Interactive UI elements, scroll-reveal
+            animations, and dynamic navigation.
+          </p>
+
+          <div class="tech-stack">
+            <span>HTMLt</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/akshaydasila/Personal_Portfolio.git"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-github"></i> Source Code
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume section" id="resume">
+      <div class="resume-content reveal">
+        <span class="welcome">MY EXPERIENCE & EDUCATION</span>
+
+        <h2 class="heading">My <span>Resume</span></h2>
+
+        <p>
+          Want to know more about my education, technical skills and experience?
+        </p>
+
+        <a href="./AKSHAY DASILA-resume.pdf" class="btn" download>
+          <i class="fas fa-download"></i>
+          Download Resume
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <h2 class="heading reveal">Contact <span>Me</span></h2>
+
+      <p class="section-description reveal">
+        Have a question or an opportunity? Send me a message.
+      </p>
+
+      <form
+        id="contactForm"
+        class="contact-form reveal"
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="POST"
+      >
+        <div class="input-group">
+          <input type="text" name="name" placeholder="Your Name" required />
+
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+
+        <input type="text" name="subject" placeholder="Subject" required />
+
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn submit-btn">
+          Send Message
+          <i class="fas fa-paper-plane"></i>
+        </button>
+
+        <p id="formStatus" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2026 Your Name. All Rights Reserved.</p>
+
+      <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
